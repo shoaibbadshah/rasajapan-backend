@@ -12,15 +12,40 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "maxLength": 40,
-      "minLength": 3
+    "name": {
+      "type": "string"
     },
-    "Description": {
-      "type": "text",
-      "maxLength": 110
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rating": {
+      "type": "decimal",
+      "max": 5
+    },
+    "review_count": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "services_offered": {
+      "type": "json"
+    },
+    "Industries_served": {
+      "type": "json"
+    },
+    "project_cost": {
+      "type": "string"
+    },
+    "retainer": {
+      "type": "string"
     }
   }
 }

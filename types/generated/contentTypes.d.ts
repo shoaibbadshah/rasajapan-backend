@@ -374,16 +374,22 @@ export interface ApiProductProduct extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    title: Attribute.String &
-      Attribute.Required &
-      Attribute.SetMinMaxLength<{
-        minLength: 3;
-        maxLength: 40;
-      }>;
-    Description: Attribute.Text &
-      Attribute.SetMinMaxLength<{
-        maxLength: 110;
-      }>;
+    name: Attribute.String;
+    description: Attribute.Blocks;
+    image: Attribute.Media<'images'>;
+    rating: Attribute.Decimal &
+      Attribute.SetMinMax<
+        {
+          max: 5;
+        },
+        number
+      >;
+    review_count: Attribute.Integer;
+    location: Attribute.String;
+    services_offered: Attribute.JSON;
+    Industries_served: Attribute.JSON;
+    project_cost: Attribute.String;
+    retainer: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

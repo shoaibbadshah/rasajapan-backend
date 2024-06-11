@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rating": {
+      "type": "decimal",
+      "max": 5
+    },
+    "review_count": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "services_offered": {
+      "type": "json"
+    },
+    "Industries_served": {
+      "type": "json"
+    },
+    "project_cost": {
+      "type": "string"
+    },
+    "retainer": {
+      "type": "string"
+    }
+  }
+}

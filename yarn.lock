@@ -2722,7 +2722,7 @@
     react-redux "8.1.3"
     yup "0.32.9"
 
-"@strapi/plugin-email@^5.0.0-beta.9":
+"@strapi/plugin-email@^5.0.0-beta.5":
   version "5.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-email/-/plugin-email-5.0.0-beta.5.tgz#5a43a14ec19fb3f00762f04f52a4f54869d61007"
   integrity sha512-kXl0RvyE0V9SfImWGoSIgZEf6R0Hii0FMgEz4x7qiHe2JZaqT0tBh8lAenjDK5dmDtmstxo+vIr6Ntd9YrMS0A==

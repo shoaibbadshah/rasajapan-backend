@@ -2096,14 +2096,14 @@
     nexus "1.3.0"
     pluralize "8.0.0"
 
-"@strapi/plugin-users-permissions@^5.0.0-beta.9":
-  version "5.0.0-beta.10"
-  resolved "https://registry.npmjs.org/@strapi/plugin-users-permissions/-/plugin-users-permissions-5.0.0-beta.10.tgz"
-  integrity sha512-DlDUyeiafEJgSapwKzu1IWXEwN5xoxPC6eTWSaHp2lLyC75SNU8wC+F1TyIm3sHV5jC5RU2JYPKlvkp6NKLuFQ==
+"@strapi/plugin-users-permissions@^5.0.0-beta.8":
+  version "5.0.0-beta.8"
+  resolved "https://registry.npmjs.org/@strapi/plugin-users-permissions/-/plugin-users-permissions-5.0.0-beta.8.tgz"
+  integrity sha512-/spsSnckJliXYqhBbJE67WES/iV3XVZbujRhgEmItSBDm0jma0r5uLf1gRCS/2qmfBQupuSQBHDiDxRlxrJfbw==
   dependencies:
-    "@strapi/design-system" "2.0.0-beta.6"
-    "@strapi/icons" "2.0.0-beta.6"
-    "@strapi/utils" "5.0.0-beta.10"
+    "@strapi/design-system" "2.0.0-beta.4"
+    "@strapi/icons" "2.0.0-beta.4"
+    "@strapi/utils" "5.0.0-beta.8"
     bcryptjs "2.4.3"
     formik "2.4.5"
     grant-koa "5.4.8"

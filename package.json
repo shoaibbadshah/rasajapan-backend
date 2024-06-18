@@ -13,7 +13,7 @@
     "@strapi/email": "^5.0.0-beta.8",
     "@strapi/plugin-cloud": "5.0.0-beta.9",
     "@strapi/plugin-graphql": "^5.0.0-beta.9",
-    "@strapi/plugin-users-permissions": "^5.0.0-beta.8",
+    "@strapi/plugin-users-permissions": "5.0.0-beta.8",
     "@strapi/provider-email-sendmail": "5.0.0-beta.9",
     "@strapi/provider-upload-cloudinary": "^5.0.0-beta.9",
     "@strapi/strapi": "5.0.0-beta.9",
